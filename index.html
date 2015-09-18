@@ -5,13 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plan | Design e Desenvolvimento</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="stylesheets/style.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   </head>
   <body>
+    
+    <nav id="offcanvas-menu">
+      <div class="d-table-cell small-12">
+        <ul class="no-bullet text-righ small-12 left">
+          <li><a href="#" class="white"><span>Início</span> <i></i></a></li>
+          <li><a href="#" class="white"><span>Sobre nós</span> <i></i></a></li>
+          <li><a href="#" class="white"><span>O que fazemos</span> <i></i></a></li>
+          <li><a href="#" class="white"><span>Fale conosco</span> <i></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="wrapper" class="small-12 left">
+      <video src="">
+      </video>
+      <div class="mask"></div>
+
+      <div class="body-wrapper small-12">
+
+        <div class="small-12 hamburguer">
+          <span class="tcon tcon-menu--xcross right" aria-label="toggle menu">
+            <span class="tcon-menu__lines" aria-hidden="true"></span>
+            <span class="tcon-visuallyhidden">toggle menu</span>
+          </span>
+        </div>
+
+        <figure id="logo" class="small-12 columns text-center">
+          <a href="#" title="Início"><img src="images/logo_plan.svg" alt="" class="d-iblock"></a>
+        </figure>
+        
+        <section id="page-content" class="small-12 left">
+          <!-- canvas -->
+          <div class="row app-canvas">
+            
+            <div class="small-12 columns text-center intro">
+              <h3 class="text-up light white">
+                Da ideia ao objetivo,
+                <span class="d-block">Existe o <b class="bold">Plan</b>ejamento</span>
+              </h3>
+            </div>
+
+            <h5 class="small-12 columns text-center text-up white light call-me">
+              <span class="divide-20">Seja avisado quando tudo estiver pronto.</span>
+              
+              <a href="#" class="button text-up d-iblock newsltter-btn">
+                Me avise <span class="icon-plan_mail"></span>
+              </a>
+            </h5>
+
+            <form class="newsletter-input rel text-center small-12 left">
+              <input type="email" required title="Seu email" placeholder="Digite seu e-mail">
+              <button type="submit" class="icon-plan_go abs"></button>
+            </form>
+
+            <h5 class="text-up white small-12 left light text-center ls-3">Ou ligue para nós</h5>
+            <h5 class="small-12 left light text-center white tel">
+              <div class="d-iblock">
+                <i class="icon-plan_phone"></i>
+                <span>(83)</span> <span class="bold">3031.2773</span>
+              </div>
+            </h5>
+
+            <!--<div class="small-12 columns text-center intro">
+              <h3 class="text-up light white">
+                Da ideia ao objetivo,
+                <span class="d-block">Existe o <b class="bold">Plan</b>ejamento</span>
+              </h3>
+            </div>
+
+            <header class="small-12 left text-center about-header">
+              <h5 class="white text-up ls-3">Sobre nós</h5>
+            </header>
+
+            <article class="small-12 large-6 large-offset-3 columns text-center about-txt">
+              <p>A PLAN é um escritório de Design, Desenvolvimento, e Consultoria especializado em soluções digitais, com profissionais fascinados pelo perfeccionismo. Acreditamos que desde a ideia inicial ao objetivo a ser alcançado, é preciso pesquisar, planejar, testar, personalizar e criar experiências únicas em cada projeto.</p>
+
+              <p>Venha PLANejar conosco, temos alguns lápis, papéis, algumas xícaras de café e muitas ideias para colocar em prática.</p>
+
+              <p>Comece enviando uma mensangem e dando um oi para nós.</p>
+            </article>-->
+
+          </div>
+          
+          <div class="row">
+            <nav id="pland-share" class="small-12 left text-center">
+              <ul class="inline-list d-iblock">
+                <li>
+                  <h3><a href="#" class="icon-plan_face" title=""></a></h3>
+                </li>
+                <li>
+                  <h3><a href="#" class="icon-plan_twitter" title=""></a></h3>
+                </li>
+                <li>
+                  <h3><a href="#" class="icon-plan_gplus" title=""></a></h3>
+                </li>
+                <li>
+                  <h3><a href="#" class="icon-plan_linkedin" title=""></a></h3>
+                </li>
+                <li>
+                  <h3><a href="#" class="icon-plan_map" title=""></a></h3>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="footer" class="small-12 columns text-center">
+              <h5 class="light white"><small class="white">Copyright  © 2015 - PLAN - Design e Desenvolvimento - Todos os direitos reservados</small></h5>
+            </div>
+          </div>
+          
+        </section>
+      
+      </div>
+    </div> <!-- // wrapper -->
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
